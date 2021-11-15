@@ -1,0 +1,21 @@
+package indmay;
+import java.util.Scanner;
+public class perulangan {
+	
+	public static void main(String[] args) {
+		  int anak, i = 1;
+	        Scanner input=new Scanner(System.in);
+	        System.out.print("Masukan Jumlah Anak Ayam :");
+	        anak=input.nextInt();
+	        System.out.println("\ntek kotek kotek kotek, anak ayam turun berkotek");
+	        while(anak>i && anak<100){
+
+
+
+	            System.out.print("\nAnak ayam Turunlah " + anak);
+	            anak=anak-i;
+	            System.out.println(", Mati Satu Tinggallah " + anak);
+	        }
+	        System.out.println("\nAnak Ayam turun 1, Mati Satu  tinggallah induknya");
+	}
+} 
